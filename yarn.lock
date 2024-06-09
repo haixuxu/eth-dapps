@@ -5847,9 +5847,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat-project@workspace:packages/nft-token":
+"hardhat-ft-token@workspace:packages/ft-token":
   version: 0.0.0-use.local
-  resolution: "hardhat-project@workspace:packages/nft-token"
+  resolution: "hardhat-ft-token@workspace:packages/ft-token"
+  dependencies:
+    "@nomiclabs/hardhat-ethers": "npm:2.0.5"
+    "@nomiclabs/hardhat-etherscan": "npm:3.0.3"
+    "@nomiclabs/hardhat-waffle": "npm:2.0.3"
+    "@openzeppelin/contracts": "npm:4.5.0"
+    bignumber.js: "npm:9.1.2"
+    chai: "npm:^4.3.6"
+    dotenv: "npm:16.4.5"
+    ethereum-waffle: "npm:3.4.0"
+    ethers: "npm:5.6.1"
+    hardhat: "npm:2.9.1"
+    web3: "npm:1.7.3"
+  languageName: unknown
+  linkType: soft
+
+"hardhat-nft-token@workspace:packages/nft-token":
+  version: 0.0.0-use.local
+  resolution: "hardhat-nft-token@workspace:packages/nft-token"
   dependencies:
     "@nomiclabs/hardhat-ethers": "npm:2.0.5"
     "@nomiclabs/hardhat-etherscan": "npm:3.0.3"

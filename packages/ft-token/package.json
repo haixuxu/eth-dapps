@@ -1,5 +1,5 @@
 {
-    "name": "hardhat-nft-token",
+    "name": "hardhat-ft-token",
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "2.0.5",
         "@nomiclabs/hardhat-etherscan": "3.0.3",
